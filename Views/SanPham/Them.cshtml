@@ -1,0 +1,33 @@
+﻿@model Buoi1.Models.SanPham
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Thêm sản phẩm";
+}
+
+<div class="container">
+        <div class="card shadow-sm" style="max-width: 500px; margin: auto;">
+            <div class="card-header bg-danger text-white">
+                <h5 class="m-0 fw-bold">THÊM SẢN PHẨM VÀO KHO</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Them" method="post">
+
+                    <div class="mb-3">
+                        <label asp-for="TenSanPham" class="form-label fw-bold">Tên Sản Phẩm:</label>
+                        <input asp-for="TenSanPham" class="form-control" placeholder="Nhập tên hàng (VGA, CPU...)" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Gia" class="form-label fw-bold">Giá bán (VNĐ):</label>
+                        <input asp-for="Gia" class="form-control" type="number" placeholder="Ví dụ: 15000000" required />
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger fw-bold">LƯU SẢN PHẨM</button>
+                        <a href="/SanPham/Index" class="btn btn-outline-secondary">Trở về danh sách</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

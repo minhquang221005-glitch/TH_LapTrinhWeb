@@ -1,0 +1,40 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<div class="container">
+    <div class="card" style="max-width:420px;margin:60px auto;">
+        <div class="card-header bg-gearvn text-white text-center py-3">
+            <h5 class="m-0 fw-bold"><i class="fa-solid fa-right-to-bracket"></i> ĐĂNG NHẬP</h5>
+        </div>
+        <div class="card-body">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <strong>Lỗi!</strong>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <div>@error.ErrorMessage</div>
+                    }
+                </div>
+            }
+
+            <form asp-action="DangNhap" method="post">
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Tên đăng nhập</label>
+                    <input name="TenDangNhap" class="form-control" placeholder="admin hoặc user1" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Mật khẩu</label>
+                    <input name="MatKhau" type="password" class="form-control" placeholder="Nhập mật khẩu" required />
+                </div>
+                <small class="text-muted d-block mb-3">Demo: admin/admin123 hoặc user1/user123</small>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-gearvn">ĐĂNG NHẬP</button>
+                    <a href="/TaiKhoan/DangKy" class="btn btn-outline-secondary">Đăng ký tài khoản mới</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

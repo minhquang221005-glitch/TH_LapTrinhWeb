@@ -1,0 +1,59 @@
+﻿@model Buoi1.Models.DangKyViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Đăng ký";
+}
+
+<div class="container">
+    <div class="card register-card">
+        <div class="card-header">
+            <h3 class="mb-0 fw-bold"><i class="fa-solid fa-user-plus"></i> ĐĂNG KÝ THÀNH VIÊN</h3>
+            <small>Trở thành thành viên Thịnh PC ngay hôm nay!</small>
+        </div>
+        <div class="card-body p-4 bg-white">
+
+            <form asp-action="DangKy" asp-controller="TaiKhoan" method="post">
+
+                <div class="mb-3">
+                    <label asp-for="TenDangNhap" class="form-label fw-bold"></label>
+                    <input asp-for="TenDangNhap" class="form-control" placeholder="Nhập tên đăng nhập...">
+                    <span asp-validation-for="TenDangNhap" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold"></label>
+                    <input asp-for="Email" class="form-control" placeholder="example@gmail.com">
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="MatKhau" class="form-label fw-bold"></label>
+                    <input asp-for="MatKhau" class="form-control" placeholder="********">
+                    <span asp-validation-for="MatKhau" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="XacNhanMatKhau" class="form-label fw-bold"></label>
+                    <input asp-for="XacNhanMatKhau" class="form-control" placeholder="********">
+                    <span asp-validation-for="XacNhanMatKhau" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn btn-gearvn mt-3">ĐĂNG KÝ NGAY</button>
+
+                <div class="text-center mt-3">
+                    <small>Bạn đã có tài khoản? <a href="/TaiKhoan/DangNhap" class="text-danger fw-bold text-decoration-none">Đăng nhập</a></small>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="/Home/Index" class="text-secondary small text-decoration-none"><i class="fa-solid fa-arrow-left"></i> Quay lại trang chủ</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}

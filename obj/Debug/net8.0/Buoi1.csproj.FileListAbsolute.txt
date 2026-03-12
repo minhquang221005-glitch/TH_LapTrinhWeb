@@ -1,0 +1,170 @@
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\appsettings.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.staticwebassets.runtime.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.exe
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.deps.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.runtimeconfig.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.dll
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\bin\Debug\net8.0\Buoi1.pdb
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.RazorAssemblyInfo.cache
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.RazorAssemblyInfo.cs
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets\msbuild.Buoi1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets\msbuild.build.Buoi1.props
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Buoi1.props
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Buoi1.props
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\scopedcss\bundle\Buoi1.styles.css
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\scopedcss\projectbundle\Buoi1.bundle.scp.css
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.dll
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\refint\Buoi1.dll
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.pdb
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\Buoi1.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Buoi1\Buoi1\obj\Debug\net8.0\ref\Buoi1.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\appsettings.Development.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\appsettings.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.staticwebassets.runtime.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.staticwebassets.endpoints.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.exe
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.deps.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.runtimeconfig.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Buoi1.pdb
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.AssemblyInfoInputs.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.AssemblyInfo.cs
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.csproj.CoreCompileInputs.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.MvcApplicationPartsAssemblyInfo.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.RazorAssemblyInfo.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.RazorAssemblyInfo.cs
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\scopedcss\bundle\Buoi1.styles.css
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\scopedcss\projectbundle\Buoi1.bundle.scp.css
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\staticwebassets.build.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\staticwebassets.development.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\swae.build.ex.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\refint\Buoi1.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.pdb
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.genruntimeconfig.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\ref\Buoi1.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Azure.Core.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Azure.Identity.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Humanizer.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.CodeDom.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.csproj.AssemblyReference.cache
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\Buoi1.csproj.Up2Date
+D:\Download\Buoi1 - Copy\Buoi1 - Copy\Buoi1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
