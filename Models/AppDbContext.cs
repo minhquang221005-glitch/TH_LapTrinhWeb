@@ -10,6 +10,8 @@ namespace Buoi1.Models
 
         public DbSet<SanPham> SanPhams { get; set; }
         public DbSet<NguoiDung> NguoiDungs { get; set; }
+        public DbSet<DonHang> DonHangs { get; set; }
+        public DbSet<ChiTietDonHang> ChiTietDonHangs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -97,6 +99,18 @@ namespace Buoi1.Models
                     NgayTao = DateTime.Now,
                     DaKichHoat = true
                 }
+            );
+
+            // Seed demo orders for testing Admin Dashboard / user history
+            modelBuilder.Entity<DonHang>().HasData(
+                new DonHang { Id = 1, UserId = 2, NgayDat = DateTime.Now.AddDays(-2), TongTien = 55000000 + 2990000, TrangThai = "HoanThanh" },
+                new DonHang { Id = 2, UserId = 2, NgayDat = DateTime.Now.AddDays(-1), TongTien = 25000000, TrangThai = "DangGiao" }
+            );
+
+            modelBuilder.Entity<ChiTietDonHang>().HasData(
+                new ChiTietDonHang { Id = 1, DonHangId = 1, SanPhamId = 1, SoLuong = 1, GiaTaiThoiDiemDat = 55000000m },
+                new ChiTietDonHang { Id = 2, DonHangId = 1, SanPhamId = 10, SoLuong = 1, GiaTaiThoiDiemDat = 2990000m },
+                new ChiTietDonHang { Id = 3, DonHangId = 2, SanPhamId = 4, SoLuong = 1, GiaTaiThoiDiemDat = 25000000m }
             );
         }
     }

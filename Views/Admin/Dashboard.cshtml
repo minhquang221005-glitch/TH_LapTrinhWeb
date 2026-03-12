@@ -1,0 +1,52 @@
+@model IEnumerable<Buoi1.Models.DonHang>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2 class="mb-3">Admin Dashboard</h2>
+<div class="row mb-4">
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h6>Tổng doanh thu</h6>
+            <strong>@ViewBag.TotalRevenue.ToString("N0")đ</strong>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h6>Tổng đơn hàng</h6>
+            <strong>@ViewBag.TotalOrders</strong>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h6>Tổng sản phẩm</h6>
+            <strong>@ViewBag.TotalProducts</strong>
+        </div>
+    </div>
+</div>
+
+<h4>Đơn hàng gần nhất</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Người</th>
+            <th>Ngày</th>
+            <th>Tổng tiền</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <td>@d.Id</td>
+                <td>@d.UserId</td>
+                <td>@d.NgayDat.ToString("g")</td>
+                <td>@d.TongTien.ToString("N0")đ</td>
+                <td>@d.TrangThai</td>
+            </tr>
+        }
+    </tbody>
+</table>

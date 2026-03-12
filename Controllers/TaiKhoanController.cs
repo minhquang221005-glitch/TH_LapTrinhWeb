@@ -13,6 +13,41 @@ namespace Buoi1.Controllers
             _context = context;
         }
 
+        // Lịch sử đơn hàng của user
+        public IActionResult LichSuDonHang()
+        {
+            var user = GetCurrentUser();
+            if (user == null)
+            {
+                TempData["Error"] = "Vui lòng đăng nhập để xem lịch sử đơn hàng.";
+                return RedirectToAction("DangNhap");
+            }
+
+            var donHangs = _context.DonHangs
+                .Where(d => d.UserId == user.Id)
+                .OrderByDescending(d => d.NgayDat)
+                .ToList();
+
+            return View(donHangs);
+        }
+
+        public IActionResult ChiTiet(int id)
+        {
+            var user = GetCurrentUser();
+            if (user == null)
+            {
+                TempData["Error"] = "Vui lòng đăng nhập.";
+                return RedirectToAction("DangNhap");
+            }
+
+            var dh = _context.DonHangs.FirstOrDefault(d => d.Id == id && d.UserId == user.Id);
+            if (dh == null) return NotFound();
+
+            var cts = _context.ChiTietDonHangs.Where(c => c.DonHangId == dh.Id).ToList();
+            ViewBag.ChiTiets = cts;
+            return View(dh);
+        }
+
         // ============ ĐĂNG KÝ ============
         [HttpGet]
         public IActionResult DangKy()

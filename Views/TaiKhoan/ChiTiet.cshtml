@@ -1,0 +1,43 @@
+@model Buoi1.Models.DonHang
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Chi tiết đơn hàng";
+}
+
+<h3>Đơn hàng #@Model.Id</h3>
+<p>Ngày: @Model.NgayDat.ToString("g")</p>
+<p>Trạng thái: @Model.TrangThai</p>
+<p>Tổng tiền: @Model.TongTien.ToString("N0")đ</p>
+
+<h4>Chi tiết</h4>
+@{
+    var cts = ViewBag.ChiTiets as List<Buoi1.Models.ChiTietDonHang>;
+}
+@if (cts != null && cts.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in cts)
+            {
+                <tr>
+                    <td>@(c.SanPham != null ? c.SanPham.TenSanPham : c.SanPhamId.ToString())</td>
+                    <td>@c.SoLuong</td>
+                    <td>@c.GiaTaiThoiDiemDat.ToString("N0")đ</td>
+                    <td>@(c.GiaTaiThoiDiemDat * c.SoLuong).ToString("N0")đ</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">Không có chi tiết.</div>
+}

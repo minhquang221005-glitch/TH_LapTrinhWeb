@@ -4,6 +4,44 @@
     ViewData["Title"] = "Trang chủ";
 }
 
+<style>
+    /* Ensure all product images share the same square aspect ratio and use cover */
+    .product-image-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 100%; /* 1:1 aspect ratio */
+        overflow: hidden;
+    }
+
+    .product-image-wrapper img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .product-image-wrapper .img-placeholder {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f8f9fa;
+    }
+
+    .product-image-wrapper .img-placeholder .fa-image {
+        font-size: 3rem;
+        color: #6c757d;
+        opacity: 0.6;
+    }
+</style>
+
 <div>
     <div class="mb-4">
         <h2 class="fw-bold mb-2">
@@ -96,16 +134,20 @@
 
 @section Scripts {
     <script>
-        // Xử lý lỗi hình ảnh với retry
+        // Xử lý lỗi hình ảnh với retry — nếu vẫn lỗi, ẩn thẻ <img> và hiển thị placeholder
         document.querySelectorAll('img[onerror]').forEach(img => {
             img.addEventListener('error', function() {
                 if (!this.hasAttribute('data-retry')) {
                     this.setAttribute('data-retry', 'true');
+                    // thử load lại một lần sau 1s
                     setTimeout(() => {
-                        this.src = this.src;
+                        try { this.src = this.src; } catch (e) { }
                     }, 1000);
                 } else {
-                    this.src = 'https://via.placeholder.com/200x200?text=Lỗi+ảnh';
+                    // Lỗi lần 2: ẩn ảnh và hiện placeholder (tránh hiển thị alt text/broken image)
+                    this.style.display = 'none';
+                    const ph = this.parentElement && this.parentElement.querySelector('.img-placeholder');
+                    if (ph) ph.classList.remove('d-none');
                 }
             });
         });

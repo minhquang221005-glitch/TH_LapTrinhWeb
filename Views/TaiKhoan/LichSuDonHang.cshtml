@@ -1,0 +1,38 @@
+@model IEnumerable<Buoi1.Models.DonHang>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Lịch sử đơn hàng";
+}
+
+<h2 class="mb-3">Lịch sử đơn hàng</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Ngày</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var d in Model)
+            {
+                <tr>
+                    <td>@d.Id</td>
+                    <td>@d.NgayDat.ToString("g")</td>
+                    <td>@d.TongTien.ToString("N0")đ</td>
+                    <td>@d.TrangThai</td>
+                    <td><a href="@Url.Action("ChiTiet", "TaiKhoan", new { id = d.Id })" class="btn btn-sm btn-outline-secondary">Chi tiết</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">Bạn chưa có đơn hàng nào.</div>
+}

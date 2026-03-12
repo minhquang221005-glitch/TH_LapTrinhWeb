@@ -134,10 +134,55 @@ namespace Buoi1.Controllers
                 return RedirectToAction("Index");
             }
 
-            // TODO: Tích hợp payment gateway (Stripe, Momo, etc.)
-            TempData["Success"] = "Thanh toán thành công! Cảm ơn bạn đã mua hàng.";
-            HttpContext.Session.Remove(CartSessionKey);
-            return RedirectToAction("Index", "Home");
+            // Kiểm tra user đang đăng nhập
+            var userJson = HttpContext.Session.GetString("User");
+            if (string.IsNullOrEmpty(userJson))
+            {
+                TempData["Error"] = "Vui lòng đăng nhập để đặt hàng.";
+                return RedirectToAction("DangNhap", "TaiKhoan");
+            }
+
+            try
+            {
+                var userData = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, object>>(userJson);
+                var userId = int.Parse(userData?["Id"].ToString() ?? "0");
+
+                // Tạo đơn hàng
+                var donHang = new DonHang
+                {
+                    UserId = userId,
+                    NgayDat = DateTime.Now,
+                    TrangThai = "ChoDuyet",
+                    TongTien = cart.Sum(x => (decimal)x.Gia * x.SoLuong)
+                };
+
+                _context.DonHangs.Add(donHang);
+                _context.SaveChanges(); // Save để có DonHang.Id
+
+                // Thêm chi tiết
+                foreach (var it in cart)
+                {
+                    var ct = new ChiTietDonHang
+                    {
+                        DonHangId = donHang.Id,
+                        SanPhamId = it.SanPhamId,
+                        SoLuong = it.SoLuong,
+                        GiaTaiThoiDiemDat = it.Gia
+                    };
+                    _context.ChiTietDonHangs.Add(ct);
+                }
+
+                _context.SaveChanges();
+
+                HttpContext.Session.Remove(CartSessionKey);
+                TempData["Success"] = "Đặt hàng thành công! Mã đơn: " + donHang.Id;
+                return RedirectToAction("Index", "Home");
+            }
+            catch
+            {
+                TempData["Error"] = "Có lỗi khi lưu đơn hàng. Vui lòng thử lại.";
+                return RedirectToAction("Index");
+            }
         }
     }
 }
