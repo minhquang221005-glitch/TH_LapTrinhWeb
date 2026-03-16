@@ -4,6 +4,7 @@ using Buoi1.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Buoi1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260316042507_FixXeMayCleanup")]
+    partial class FixXeMayCleanup
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -258,7 +261,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 1,
                             Gia = 18900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+Wave+Alpha",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/wave-alpha/wave-alpha-do-den.png",
                             MaHangXe = 1,
                             MauSac = "Do",
                             NamSanXuat = 2024,
@@ -270,7 +273,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 2,
                             Gia = 38900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+Air+Blade",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/air-blade/air-blade-125-special-den-do.png",
                             MaHangXe = 1,
                             MauSac = "Den",
                             NamSanXuat = 2024,
@@ -282,7 +285,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 3,
                             Gia = 30900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+Vision",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/vision/vision-do-den.png",
                             MaHangXe = 1,
                             MauSac = "Do",
                             NamSanXuat = 2024,
@@ -294,7 +297,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 4,
                             Gia = 70900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+SH+150i",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/sh150i/sh150i-trang.png",
                             MaHangXe = 1,
                             MauSac = "Trang",
                             NamSanXuat = 2024,
@@ -306,7 +309,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 5,
                             Gia = 52900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+PCX+125",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/pcx/pcx125-den.png",
                             MaHangXe = 1,
                             MauSac = "Den",
                             NamSanXuat = 2024,
@@ -318,7 +321,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 6,
                             Gia = 68000000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+CB150R",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/cb150r/cb150r-den.png",
                             MaHangXe = 1,
                             MauSac = "Den",
                             NamSanXuat = 2023,
@@ -330,7 +333,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 7,
                             Gia = 46900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+Winner+X",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/winner-x/winner-x-trang-do.png",
                             MaHangXe = 1,
                             MauSac = "Trang",
                             NamSanXuat = 2024,
@@ -342,7 +345,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 8,
                             Gia = 52990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+Exciter+155",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/exciter-155-vva.png",
                             MaHangXe = 2,
                             MauSac = "Xanh",
                             NamSanXuat = 2024,
@@ -354,7 +357,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 9,
                             Gia = 53990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+NVX+155",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/nvx155-vva.png",
                             MaHangXe = 2,
                             MauSac = "Den",
                             NamSanXuat = 2024,
@@ -366,7 +369,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 10,
                             Gia = 48990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+Grande+125",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/grande-125-hybrid.png",
                             MaHangXe = 2,
                             MauSac = "Trang",
                             NamSanXuat = 2024,
@@ -378,7 +381,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 11,
                             Gia = 31490000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+Janus+125",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/janus-125.png",
                             MaHangXe = 2,
                             MauSac = "Hong",
                             NamSanXuat = 2023,
@@ -390,7 +393,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 12,
                             Gia = 38990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+Freego+125",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/freego-125.png",
                             MaHangXe = 2,
                             MauSac = "Xanh",
                             NamSanXuat = 2023,
@@ -402,7 +405,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 13,
                             Gia = 98000000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+R15+V4",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/r15-v4.png",
                             MaHangXe = 2,
                             MauSac = "Xanh",
                             NamSanXuat = 2024,
@@ -414,7 +417,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 14,
                             Gia = 94000000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+MT-15+V2",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/mt15-v2.png",
                             MaHangXe = 2,
                             MauSac = "Den",
                             NamSanXuat = 2024,
@@ -426,7 +429,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 15,
                             Gia = 52990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Suzuki+Raider+R150",
+                            HinhAnh = "https://suzuki.com.vn/wp-content/uploads/2021/06/raider-r150.png",
                             MaHangXe = 3,
                             MauSac = "Trang",
                             NamSanXuat = 2023,
@@ -438,7 +441,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 16,
                             Gia = 28500000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Suzuki+Hayate+125",
+                            HinhAnh = "https://suzuki.com.vn/wp-content/uploads/2021/06/hayate-125.png",
                             MaHangXe = 3,
                             MauSac = "Xam",
                             NamSanXuat = 2023,
@@ -450,7 +453,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 17,
                             Gia = 21990000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Suzuki+Address+110",
+                            HinhAnh = "https://suzuki.com.vn/wp-content/uploads/2021/06/address-110.png",
                             MaHangXe = 3,
                             MauSac = "Trang",
                             NamSanXuat = 2023,
@@ -462,7 +465,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 18,
                             Gia = 79000000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Suzuki+GSX-R150",
+                            HinhAnh = "https://suzuki.com.vn/wp-content/uploads/2021/06/gsx-r150.png",
                             MaHangXe = 3,
                             MauSac = "Xanh",
                             NamSanXuat = 2023,
@@ -474,7 +477,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 19,
                             Gia = 37900000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Honda+Lead+125",
+                            HinhAnh = "https://www.honda.com.vn/uploads/products/lead/lead-125-do-den.png",
                             MaHangXe = 1,
                             MauSac = "Do",
                             NamSanXuat = 2024,
@@ -486,7 +489,7 @@ namespace Buoi1.Migrations
                         {
                             Id = 20,
                             Gia = 21490000m,
-                            HinhAnh = "https://placehold.co/400x300?text=Yamaha+Sirius+115",
+                            HinhAnh = "https://yamaha-motor.com.vn/wp-content/uploads/2022/09/sirius-115-fi.png",
                             MaHangXe = 2,
                             MauSac = "Den",
                             NamSanXuat = 2023,

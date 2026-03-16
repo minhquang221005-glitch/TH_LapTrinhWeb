@@ -79,7 +79,7 @@ namespace Buoi1.Controllers
         }
 
         [HttpPost]
-        public IActionResult Them(SanPham spMoi)
+        public IActionResult Them(XeMay spMoi)
         {
             if (!IsAdmin())
             {
@@ -114,7 +114,7 @@ namespace Buoi1.Controllers
         }
 
         [HttpPost]
-        public IActionResult Sua(SanPham spSua)
+        public IActionResult Sua(XeMay spSua)
         {
             if (!IsAdmin())
             {

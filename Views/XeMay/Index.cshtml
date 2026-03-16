@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Buoi1.Models.XeMay>
+@{
+    ViewData["Title"] = "Danh Sach Xe May";
+}
+<div class="container mt-4">
+    <h2 class="text-center">
+        <i class="fa-solid fa-motorcycle me-2"></i>He Thong Cua Hang Xe May
+    </h2>
+    <div class="product-grid">
+        @foreach (var item in Model)
+        {
+            <div class="product-card">
+                <div class="badge-hot">HOT</div>
+                <div class="moto-img-wrapper">
+                    <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/images/no-image.jpg" : item.HinhAnh)"
+                         alt="@item.TenSanPham">
+                </div>
+                <div class="moto-info">
+                    <span class="brand-label">Hang: @(item.HangXe?.TenHang ?? "Chinh hang")</span>
+                    <h4 class="text-truncate">@item.TenSanPham</h4>
+                    <div class="specs-quick">
+                        <span><i class="fa-solid fa-gauge-high"></i> @item.PhanKhoi cc</span>
+                        <span><i class="fa-solid fa-calendar"></i> @item.NamSanXuat</span>
+                        <span><i class="fa-solid fa-palette"></i> @item.MauSac</span>
+                    </div>
+                    <div class="price">@item.Gia.ToString("#,##0") d</div>
+                    <div class="mt-3">
+                        <form action="/Cart/ThemVaoGio" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <input type="hidden" name="soLuong" value="1" />
+                            <button type="submit" class="btn-buy mb-2">
+                                <i class="fa-solid fa-cart-shopping me-2"></i>MUA NGAY
+                            </button>
+                        </form>
+                        <a href="/Home/ChiTiet/@item.Id" class="btn btn-outline-secondary w-100 btn-sm" style="border-radius: 8px;">
+                            <i class="fa-solid fa-magnifying-glass me-1"></i>Xem chi tiet
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section Scripts {
+    <script>
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                this.src = '/images/no-image.jpg';
+            };
+        });
+    </script>
+}

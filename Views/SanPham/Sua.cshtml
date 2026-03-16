@@ -1,49 +1,75 @@
-﻿@model Buoi1.Models.SanPham
+﻿@model Buoi1.Models.XeMay
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+    ViewData["Title"] = "Chinh sua san pham";
 }
 
 <div class="container">
-        <div class="card shadow-sm" style="max-width: 600px; margin: auto;">
-            <div class="card-header bg-primary text-white">
-                <h5 class="m-0 fw-bold">CHỈNH SỬA SẢN PHẨM (ID: @Model.Id)</h5>
-            </div>
-            <div class="card-body">
-                <form asp-action="Sua" method="post">
+    <div class="card shadow-sm" style="max-width: 600px; margin: auto;">
+        <div class="card-header bg-primary text-white">
+            <h5 class="m-0 fw-bold">CHINH SUA SAN PHAM (ID: @Model.Id)</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Sua" method="post">
+                <input type="hidden" asp-for="Id" />
 
-                    <input type="hidden" asp-for="Id" />
+                <div class="mb-3">
+                    <label asp-for="TenSanPham" class="form-label fw-bold">Ten San Pham:</label>
+                    <input asp-for="TenSanPham" class="form-control" required />
+                </div>
 
-                    <div class="mb-3">
-                        <label asp-for="TenSanPham" class="form-label fw-bold">Tên Sản Phẩm:</label>
-                        <input asp-for="TenSanPham" class="form-control" required />
-                    </div>
+                <div class="mb-3">
+                    <label asp-for="Gia" class="form-label fw-bold">Gia ban (VND):</label>
+                    <input asp-for="Gia" class="form-control" type="number" required />
+                </div>
 
-                    <div class="mb-3">
-                        <label asp-for="Gia" class="form-label fw-bold">Giá bán (VNĐ):</label>
-                        <input asp-for="Gia" class="form-control" type="number" required />
-                    </div>
+                <div class="mb-3">
+                    <label asp-for="MaHangXe" class="form-label fw-bold">Hang Xe:</label>
+                    <select asp-for="MaHangXe" class="form-select" required>
+                        <option value="1">Honda</option>
+                        <option value="2">Yamaha</option>
+                        <option value="3">Suzuki</option>
+                    </select>
+                </div>
 
-                    <div class="mb-4">
-                        <label asp-for="HinhAnh" class="form-label fw-bold">Link Hình Ảnh (Copy link dán vào đây):</label>
-                        <input asp-for="HinhAnh" class="form-control" placeholder="https://..." />
+                <div class="mb-3">
+                    <label asp-for="PhanKhoi" class="form-label fw-bold">Phan Khoi (cc):</label>
+                    <input asp-for="PhanKhoi" class="form-control" type="number" />
+                </div>
 
-                        @* View trước cái ảnh đang có *@
-                        @if (!string.IsNullOrEmpty(Model.HinhAnh))
-                        {
-                            <div class="mt-2 p-2 border rounded bg-white text-center">
-                                <span class="d-block text-muted small mb-1">Ảnh hiện tại:</span>
-                                <img src="@Model.HinhAnh" style="max-height: 120px; object-fit: contain;" />
-                            </div>
-                        }
-                    </div>
+                <div class="mb-3">
+                    <label asp-for="MauSac" class="form-label fw-bold">Mau Sac:</label>
+                    <input asp-for="MauSac" class="form-control" />
+                </div>
 
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-primary fw-bold">LƯU THAY ĐỔI</button>
-                        <a href="/SanPham/Index" class="btn btn-outline-secondary">Trở về danh sách</a>
-                    </div>
-                </form>
-            </div>
+                <div class="mb-3">
+                    <label asp-for="NamSanXuat" class="form-label fw-bold">Nam San Xuat:</label>
+                    <input asp-for="NamSanXuat" class="form-control" type="number" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SoLuongTon" class="form-label fw-bold">So Luong Ton:</label>
+                    <input asp-for="SoLuongTon" class="form-control" type="number" />
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="HinhAnh" class="form-label fw-bold">Link Hinh Anh:</label>
+                    <input asp-for="HinhAnh" class="form-control" placeholder="https://..." />
+                    @if (!string.IsNullOrEmpty(Model.HinhAnh))
+                    {
+                        <div class="mt-2 p-2 border rounded bg-white text-center">
+                            <span class="d-block text-muted small mb-1">Anh hien tai:</span>
+                            <img src="@Model.HinhAnh" style="max-height: 120px; object-fit: contain;" />
+                        </div>
+                    }
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary fw-bold">LUU THAY DOI</button>
+                    <a href="/SanPham/Index" class="btn btn-outline-secondary">Tro ve danh sach</a>
+                </div>
+            </form>
         </div>
     </div>
+</div>

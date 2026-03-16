@@ -1,33 +1,67 @@
-﻿@model Buoi1.Models.SanPham
+﻿@model Buoi1.Models.XeMay
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewData["Title"] = "Thêm sản phẩm";
+    ViewData["Title"] = "Them san pham";
 }
 
 <div class="container">
-        <div class="card shadow-sm" style="max-width: 500px; margin: auto;">
-            <div class="card-header bg-danger text-white">
-                <h5 class="m-0 fw-bold">THÊM SẢN PHẨM VÀO KHO</h5>
-            </div>
-            <div class="card-body">
-                <form asp-action="Them" method="post">
+    <div class="card shadow-sm" style="max-width: 600px; margin: auto;">
+        <div class="card-header bg-danger text-white">
+            <h5 class="m-0 fw-bold">THEM SAN PHAM MOI</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Them" method="post">
 
-                    <div class="mb-3">
-                        <label asp-for="TenSanPham" class="form-label fw-bold">Tên Sản Phẩm:</label>
-                        <input asp-for="TenSanPham" class="form-control" placeholder="Nhập tên hàng (VGA, CPU...)" required />
-                    </div>
+                <div class="mb-3">
+                    <label asp-for="TenSanPham" class="form-label fw-bold">Ten San Pham:</label>
+                    <input asp-for="TenSanPham" class="form-control" placeholder="Vi du: Honda Wave Alpha 110" required />
+                </div>
 
-                    <div class="mb-3">
-                        <label asp-for="Gia" class="form-label fw-bold">Giá bán (VNĐ):</label>
-                        <input asp-for="Gia" class="form-control" type="number" placeholder="Ví dụ: 15000000" required />
-                    </div>
+                <div class="mb-3">
+                    <label asp-for="Gia" class="form-label fw-bold">Gia ban (VND):</label>
+                    <input asp-for="Gia" class="form-control" type="number" placeholder="Vi du: 18900000" required />
+                </div>
 
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-danger fw-bold">LƯU SẢN PHẨM</button>
-                        <a href="/SanPham/Index" class="btn btn-outline-secondary">Trở về danh sách</a>
-                    </div>
-                </form>
-            </div>
+                <div class="mb-3">
+                    <label asp-for="MaHangXe" class="form-label fw-bold">Hang Xe:</label>
+                    <select asp-for="MaHangXe" class="form-select" required>
+                        <option value="1">Honda</option>
+                        <option value="2">Yamaha</option>
+                        <option value="3">Suzuki</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PhanKhoi" class="form-label fw-bold">Phan Khoi (cc):</label>
+                    <input asp-for="PhanKhoi" class="form-control" type="number" placeholder="Vi du: 125" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="MauSac" class="form-label fw-bold">Mau Sac:</label>
+                    <input asp-for="MauSac" class="form-control" placeholder="Vi du: Do, Den, Trang..." />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NamSanXuat" class="form-label fw-bold">Nam San Xuat:</label>
+                    <input asp-for="NamSanXuat" class="form-control" type="number" placeholder="Vi du: 2024" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SoLuongTon" class="form-label fw-bold">So Luong Ton:</label>
+                    <input asp-for="SoLuongTon" class="form-control" type="number" placeholder="Vi du: 10" />
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="HinhAnh" class="form-label fw-bold">Link Hinh Anh:</label>
+                    <input asp-for="HinhAnh" class="form-control" placeholder="https://..." />
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-danger fw-bold">LUU SAN PHAM</button>
+                    <a href="/SanPham/Index" class="btn btn-outline-secondary">Tro ve danh sach</a>
+                </div>
+            </form>
         </div>
     </div>
+</div>

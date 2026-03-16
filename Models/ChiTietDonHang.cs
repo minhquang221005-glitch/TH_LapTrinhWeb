@@ -10,6 +10,6 @@ namespace Buoi1.Models
 
         // Navigation
         public DonHang? DonHang { get; set; }
-        public SanPham? SanPham { get; set; }
+        public XeMay? SanPham { get; set; }
     }
 }

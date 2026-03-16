@@ -2,10 +2,8 @@
 using Buoi1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddControllersWithViews();
 
-// Chỉ 1 lần AddSession duy nhất, có đủ config
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
